@@ -57,14 +57,6 @@ source("functions.R")
 
 source("setup.R")
 
-##### Authentication Shiny #########
-
-
-rsconnect::setAccountInfo(name='ddl-dentsu-aegis',
-                          token='510A4371324FF078B438352530B8561E',
-                          secret='CPLcTKr6TuUIbdLVJvbcbRgaav8xOpCj19JfRw9q')
-
-
 ####### Authentication Google #########
 
 #authEmail = "analytics-support-emea@dentsuaegis.com"
