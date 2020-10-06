@@ -1,0 +1,341 @@
+,bq.record.name,bq.name,isArray,bq.array,tidy.name,type,
+1,trafficSource.referralPath,trafficSource.referralPath,FALSE,NA,Traffic Source Referral Path,STRING,
+2,trafficSource.campaign,trafficSource.campaign,FALSE,NA,Traffic Source Campaign,STRING,
+3,trafficSource.source,trafficSource.source,FALSE,NA,Traffic Source Source,STRING,
+4,trafficSource.medium,trafficSource.medium,FALSE,NA,Traffic Source Medium,STRING,
+5,trafficSource.keyword,trafficSource.keyword,FALSE,NA,Traffic Source Keyword,STRING,
+6,trafficSource.adContent,trafficSource.adContent,FALSE,NA,Traffic Source Ad Content,STRING,
+7,trafficSource.adwordsClickInfo.slot,trafficSource.adwordsClickInfo.slot,FALSE,NA,Traffic Source Adwords Click Info Slot,STRING,
+8,trafficSource.adwordsClickInfo.criteriaParameters,trafficSource.adwordsClickInfo.criteriaParameters,FALSE,NA,Traffic Source Adwords Click Info Criteria Parameters,STRING,
+9,trafficSource.adwordsClickInfo.gclId,trafficSource.adwordsClickInfo.gclId,FALSE,NA,Traffic Source Adwords Click Info Gcl Id,STRING,
+10,trafficSource.adwordsClickInfo.adNetworkType,trafficSource.adwordsClickInfo.adNetworkType,FALSE,NA,Traffic Source Adwords Click Info Ad Network Type,STRING,
+11,trafficSource.adwordsClickInfo.isVideoAd,trafficSource.adwordsClickInfo.isVideoAd,FALSE,NA,Traffic Source Adwords Click Info Is Video Ad,BOOLEAN,
+12,trafficSource.isTrueDirect,trafficSource.isTrueDirect,FALSE,NA,Traffic Source Is True Direct,BOOLEAN,
+13,trafficSource.campaignCode,trafficSource.campaignCode,FALSE,NA,Traffic Source Campaign Code,STRING,
+14,device.browser,device.browser,FALSE,NA,Device Browser,STRING,
+15,device.browserVersion,device.browserVersion,FALSE,NA,Device Browser Version,STRING,
+16,device.browserSize,device.browserSize,FALSE,NA,Device Browser Size,STRING,
+17,device.operatingSystem,device.operatingSystem,FALSE,NA,Device Operating System,STRING,
+18,device.operatingSystemVersion,device.operatingSystemVersion,FALSE,NA,Device Operating System Version,STRING,
+19,device.isMobile,device.isMobile,FALSE,NA,Device Is Mobile,BOOLEAN,
+20,device.mobileDeviceBranding,device.mobileDeviceBranding,FALSE,NA,Device Mobile Device Branding,STRING,
+21,device.mobileDeviceModel,device.mobileDeviceModel,FALSE,NA,Device Mobile Device Model,STRING,
+22,device.mobileInputSelector,device.mobileInputSelector,FALSE,NA,Device Mobile Input Selector,STRING,
+23,device.mobileDeviceInfo,device.mobileDeviceInfo,FALSE,NA,Device Mobile Device Info,STRING,
+24,device.mobileDeviceMarketingName,device.mobileDeviceMarketingName,FALSE,NA,Device Mobile Device Marketing Name,STRING,
+25,device.flashVersion,device.flashVersion,FALSE,NA,Device Flash Version,STRING,
+26,device.javaEnabled,device.javaEnabled,FALSE,NA,Device Java Enabled,BOOLEAN,
+27,device.language,device.language,FALSE,NA,Device Language,STRING,
+28,device.screenColors,device.screenColors,FALSE,NA,Device Screen Colors,STRING,
+29,device.screenResolution,device.screenResolution,FALSE,NA,Device Screen Resolution,STRING,
+30,device.deviceCategory,device.deviceCategory,FALSE,NA,Device Device Category,STRING,
+31,geoNetwork.continent,geoNetwork.continent,FALSE,NA,Geo Network Continent,STRING,
+32,geoNetwork.subContinent,geoNetwork.subContinent,FALSE,NA,Geo Network Sub Continent,STRING,
+33,geoNetwork.country,geoNetwork.country,FALSE,NA,Geo Network Country,STRING,
+34,geoNetwork.region,geoNetwork.region,FALSE,NA,Geo Network Region,STRING,
+35,geoNetwork.metro,geoNetwork.metro,FALSE,NA,Geo Network Metro,STRING,
+36,geoNetwork.city,geoNetwork.city,FALSE,NA,Geo Network City,STRING,
+37,geoNetwork.cityId,geoNetwork.cityId,FALSE,NA,Geo Network City Id,STRING,
+38,geoNetwork.networkDomain,geoNetwork.networkDomain,FALSE,NA,Geo Network Network Domain,STRING,
+39,geoNetwork.latitude,geoNetwork.latitude,FALSE,NA,Geo Network Latitude,STRING,
+40,geoNetwork.longitude,geoNetwork.longitude,FALSE,NA,Geo Network Longitude,STRING,
+41,geoNetwork.networkLocation,geoNetwork.networkLocation,FALSE,NA,Geo Network Network Location,STRING,
+42,customDimensions.value,customDimensions.value,FALSE,NA,Custom Dimensions Value,STRING,
+43,hits.isSecure,hits.isSecure,FALSE,NA,Hits Is Secure,BOOLEAN,
+44,hits.isInteraction,hits.isInteraction,FALSE,NA,Hits Is Interaction,BOOLEAN,
+45,hits.isEntrance,hits.isEntrance,FALSE,NA,Hits Is Entrance,BOOLEAN,
+46,hits.isExit,hits.isExit,FALSE,NA,Hits Is Exit,BOOLEAN,
+47,hits.referer,hits.referer,FALSE,NA,Hits Referer,STRING,
+48,hits.page.pagePath,hits.page.pagePath,FALSE,NA,Hits Page Page Path,STRING,
+49,hits.page.hostname,hits.page.hostname,FALSE,NA,Hits Page Hostname,STRING,
+50,hits.page.pageTitle,hits.page.pageTitle,FALSE,NA,Hits Page Page Title,STRING,
+51,hits.page.searchKeyword,hits.page.searchKeyword,FALSE,NA,Hits Page Search Keyword,STRING,
+52,hits.page.searchCategory,hits.page.searchCategory,FALSE,NA,Hits Page Search Category,STRING,
+53,hits.page.pagePathLevel1,hits.page.pagePathLevel1,FALSE,NA,Hits Page Page Path Level1,STRING,
+54,hits.page.pagePathLevel2,hits.page.pagePathLevel2,FALSE,NA,Hits Page Page Path Level2,STRING,
+55,hits.page.pagePathLevel3,hits.page.pagePathLevel3,FALSE,NA,Hits Page Page Path Level3,STRING,
+56,hits.page.pagePathLevel4,hits.page.pagePathLevel4,FALSE,NA,Hits Page Page Path Level4,STRING,
+57,hits.transaction.transactionId,hits.transaction.transactionId,FALSE,NA,Hits Transaction Transaction Id,STRING,
+58,hits.transaction.affiliation,hits.transaction.affiliation,FALSE,NA,Hits Transaction Affiliation,STRING,
+59,hits.transaction.currencyCode,hits.transaction.currencyCode,FALSE,NA,Hits Transaction Currency Code,STRING,
+60,hits.transaction.transactionCoupon,hits.transaction.transactionCoupon,FALSE,NA,Hits Transaction Transaction Coupon,STRING,
+61,hits.item.transactionId,hits.item.transactionId,FALSE,NA,Hits Item Transaction Id,STRING,
+62,hits.item.productName,hits.item.productName,FALSE,NA,Hits Item Product Name,STRING,
+63,hits.item.productCategory,hits.item.productCategory,FALSE,NA,Hits Item Product Category,STRING,
+64,hits.item.productSku,hits.item.productSku,FALSE,NA,Hits Item Product Sku,STRING,
+65,hits.item.currencyCode,hits.item.currencyCode,FALSE,NA,Hits Item Currency Code,STRING,
+66,hits.contentInfo.contentDescription,hits.contentInfo.contentDescription,FALSE,NA,Hits Content Info Content Description,STRING,
+67,hits.appInfo.name,hits.appInfo.name,FALSE,NA,Hits App Info Name,STRING,
+68,hits.appInfo.version,hits.appInfo.version,FALSE,NA,Hits App Info Version,STRING,
+69,hits.appInfo.id,hits.appInfo.id,FALSE,NA,Hits App Info Id,STRING,
+70,hits.appInfo.installerId,hits.appInfo.installerId,FALSE,NA,Hits App Info Installer Id,STRING,
+71,hits.appInfo.appInstallerId,hits.appInfo.appInstallerId,FALSE,NA,Hits App Info App Installer Id,STRING,
+72,hits.appInfo.appName,hits.appInfo.appName,FALSE,NA,Hits App Info App Name,STRING,
+73,hits.appInfo.appVersion,hits.appInfo.appVersion,FALSE,NA,Hits App Info App Version,STRING,
+74,hits.appInfo.appId,hits.appInfo.appId,FALSE,NA,Hits App Info App Id,STRING,
+75,hits.appInfo.screenName,hits.appInfo.screenName,FALSE,NA,Hits App Info Screen Name,STRING,
+76,hits.appInfo.landingScreenName,hits.appInfo.landingScreenName,FALSE,NA,Hits App Info Landing Screen Name,STRING,
+77,hits.appInfo.exitScreenName,hits.appInfo.exitScreenName,FALSE,NA,Hits App Info Exit Screen Name,STRING,
+78,hits.appInfo.screenDepth,hits.appInfo.screenDepth,FALSE,NA,Hits App Info Screen Depth,STRING,
+79,hits.exceptionInfo.description,hits.exceptionInfo.description,FALSE,NA,Hits Exception Info Description,STRING,
+80,hits.exceptionInfo.isFatal,hits.exceptionInfo.isFatal,FALSE,NA,Hits Exception Info Is Fatal,BOOLEAN,
+81,hits.eventInfo.eventCategory,hits.eventInfo.eventCategory,FALSE,NA,Hits Event Info Event Category,STRING,
+82,hits.eventInfo.eventAction,hits.eventInfo.eventAction,FALSE,NA,Hits Event Info Event Action,STRING,
+83,hits.eventInfo.eventLabel,hits.eventInfo.eventLabel,FALSE,NA,Hits Event Info Event Label,STRING,
+84,hits.product.productSKU,productSKU,TRUE,product,Hits Product Product S K U,STRING,
+85,hits.product.v2ProductName,v2ProductName,TRUE,product,Hits Product V2 Product Name,STRING,
+86,hits.product.v2ProductCategory,v2ProductCategory,TRUE,product,Hits Product V2 Product Category,STRING,
+87,hits.product.productVariant,productVariant,TRUE,product,Hits Product Product Variant,STRING,
+88,hits.product.productBrand,productBrand,TRUE,product,Hits Product Product Brand,STRING,
+89,hits.product.isImpression,isImpression,TRUE,product,Hits Product Is Impression,BOOLEAN,
+90,hits.product.isClick,isClick,TRUE,product,Hits Product Is Click,BOOLEAN,
+91,hits.product.customDimensions.value,customDimensions.value,TRUE,product,Hits Product Custom Dimensions Value,STRING,
+92,hits.product.productListName,productListName,TRUE,product,Hits Product Product List Name,STRING,
+93,hits.product.productCouponCode,productCouponCode,TRUE,product,Hits Product Product Coupon Code,STRING,
+94,hits.promotion.promoId,promoId,TRUE,promotion,Hits Promotion Promo Id,STRING,
+95,hits.promotion.promoName,promoName,TRUE,promotion,Hits Promotion Promo Name,STRING,
+96,hits.promotion.promoCreative,promoCreative,TRUE,promotion,Hits Promotion Promo Creative,STRING,
+97,hits.promotion.promoPosition,promoPosition,TRUE,promotion,Hits Promotion Promo Position,STRING,
+98,hits.promotionActionInfo.promoIsView,hits.promotionActionInfo.promoIsView,TRUE,promotion,Hits Promotion Action Info Promo Is View,BOOLEAN,
+99,hits.promotionActionInfo.promoIsClick,hits.promotionActionInfo.promoIsClick,TRUE,promotion,Hits Promotion Action Info Promo Is Click,BOOLEAN,
+100,hits.eCommerceAction.action_type,hits.eCommerceAction.action_type,FALSE,NA,Hits E Commerce Action Action Type,STRING,
+101,hits.eCommerceAction.option,hits.eCommerceAction.option,FALSE,NA,Hits E Commerce Action Option,STRING,
+102,hits.experiment.experimentId,experimentId,TRUE,experiment,Hits Experiment Experiment Id,STRING,
+103,hits.experiment.experimentVariant,experimentVariant,TRUE,experiment,Hits Experiment Experiment Variant,STRING,
+104,hits.publisher.dfpAdGroup,hits.publisher.dfpAdGroup,FALSE,NA,Hits Publisher Dfp Ad Group,STRING,
+105,hits.publisher.dfpAdUnits,hits.publisher.dfpAdUnits,FALSE,NA,Hits Publisher Dfp Ad Units,STRING,
+106,hits.publisher.dfpNetworkId,hits.publisher.dfpNetworkId,FALSE,NA,Hits Publisher Dfp Network Id,STRING,
+107,hits.customVariables.customVarName,hits.customVariables.customVarName,FALSE,NA,Hits Custom Variables Custom Var Name,STRING,
+108,hits.customVariables.customVarValue,hits.customVariables.customVarValue,FALSE,NA,Hits Custom Variables Custom Var Value,STRING,
+109,hits.customDimensions.value,hits.customDimensions.value,FALSE,NA,Hits Custom Dimensions Value,STRING,
+110,hits.type,hits.type,FALSE,NA,Hits Type,STRING,
+111,hits.social.socialInteractionNetwork,hits.social.socialInteractionNetwork,FALSE,NA,Hits Social Social Interaction Network,STRING,
+112,hits.social.socialInteractionAction,hits.social.socialInteractionAction,FALSE,NA,Hits Social Social Interaction Action,STRING,
+113,hits.social.socialInteractionTarget,hits.social.socialInteractionTarget,FALSE,NA,Hits Social Social Interaction Target,STRING,
+114,hits.social.socialNetwork,hits.social.socialNetwork,FALSE,NA,Hits Social Social Network,STRING,
+115,hits.social.hasSocialSourceReferral,hits.social.hasSocialSourceReferral,FALSE,NA,Hits Social Has Social Source Referral,STRING,
+116,hits.social.socialInteractionNetworkAction,hits.social.socialInteractionNetworkAction,FALSE,NA,Hits Social Social Interaction Network Action,STRING,
+117,hits.latencyTracking.userTimingVariable,hits.latencyTracking.userTimingVariable,FALSE,NA,Hits Latency Tracking User Timing Variable,STRING,
+118,hits.latencyTracking.userTimingCategory,hits.latencyTracking.userTimingCategory,FALSE,NA,Hits Latency Tracking User Timing Category,STRING,
+119,hits.latencyTracking.userTimingLabel,hits.latencyTracking.userTimingLabel,FALSE,NA,Hits Latency Tracking User Timing Label,STRING,
+120,hits.sourcePropertyInfo.sourcePropertyDisplayName,hits.sourcePropertyInfo.sourcePropertyDisplayName,FALSE,NA,Hits Source Property Info Source Property Display Name,STRING,
+121,hits.sourcePropertyInfo.sourcePropertyTrackingId,hits.sourcePropertyInfo.sourcePropertyTrackingId,FALSE,NA,Hits Source Property Info Source Property Tracking Id,STRING,
+122,hits.contentGroup.contentGroup1,hits.contentGroup.contentGroup1,FALSE,NA,Hits Content Group Content Group1,STRING,
+123,hits.contentGroup.contentGroup2,hits.contentGroup.contentGroup2,FALSE,NA,Hits Content Group Content Group2,STRING,
+124,hits.contentGroup.contentGroup3,hits.contentGroup.contentGroup3,FALSE,NA,Hits Content Group Content Group3,STRING,
+125,hits.contentGroup.contentGroup4,hits.contentGroup.contentGroup4,FALSE,NA,Hits Content Group Content Group4,STRING,
+126,hits.contentGroup.contentGroup5,hits.contentGroup.contentGroup5,FALSE,NA,Hits Content Group Content Group5,STRING,
+127,hits.contentGroup.previousContentGroup1,hits.contentGroup.previousContentGroup1,FALSE,NA,Hits Content Group Previous Content Group1,STRING,
+128,hits.contentGroup.previousContentGroup2,hits.contentGroup.previousContentGroup2,FALSE,NA,Hits Content Group Previous Content Group2,STRING,
+129,hits.contentGroup.previousContentGroup3,hits.contentGroup.previousContentGroup3,FALSE,NA,Hits Content Group Previous Content Group3,STRING,
+130,hits.contentGroup.previousContentGroup4,hits.contentGroup.previousContentGroup4,FALSE,NA,Hits Content Group Previous Content Group4,STRING,
+131,hits.contentGroup.previousContentGroup5,hits.contentGroup.previousContentGroup5,FALSE,NA,Hits Content Group Previous Content Group5,STRING,
+132,hits.dataSource,hits.dataSource,FALSE,NA,Hits Data Source,STRING,
+133,hits.publisher_infos.dfpAdGroup,dfpAdGroup,TRUE,publisher_infos,Hits Publisher Infos Dfp Ad Group,STRING,
+134,hits.publisher_infos.dfpAdUnits,dfpAdUnits,TRUE,publisher_infos,Hits Publisher Infos Dfp Ad Units,STRING,
+135,hits.publisher_infos.dfpNetworkId,dfpNetworkId,TRUE,publisher_infos,Hits Publisher Infos Dfp Network Id,STRING,
+136,fullVisitorId,fullVisitorId,FALSE,NA,Full Visitor Id,STRING,
+137,userId,userId,FALSE,NA,User Id,STRING,
+138,clientId,clientId,FALSE,NA,Client Id,STRING,
+139,channelGrouping,channelGrouping,FALSE,NA,Channel Grouping,STRING,
+140,socialEngagementType,socialEngagementType,FALSE,NA,Social Engagement Type,STRING,
+141,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  1  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  1  GROUP BY value),FALSE,NA,Custom Dimension 1,Custom Dimension 1,STRING
+142,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  2  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  2  GROUP BY value),FALSE,NA,Custom Dimension 2,Custom Dimension 2,STRING
+143,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  3  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  3  GROUP BY value),FALSE,NA,Custom Dimension 3,Custom Dimension 3,STRING
+144,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  4  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  4  GROUP BY value),FALSE,NA,Custom Dimension 4,Custom Dimension 4,STRING
+145,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  5  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  5  GROUP BY value),FALSE,NA,Custom Dimension 5,Custom Dimension 5,STRING
+146,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  6  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  6  GROUP BY value),FALSE,NA,Custom Dimension 6,Custom Dimension 6,STRING
+147,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  7  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  7  GROUP BY value),FALSE,NA,Custom Dimension 7,Custom Dimension 7,STRING
+148,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  8  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  8  GROUP BY value),FALSE,NA,Custom Dimension 8,Custom Dimension 8,STRING
+149,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  9  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  9  GROUP BY value),FALSE,NA,Custom Dimension 9,Custom Dimension 9,STRING
+150,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  10  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  10  GROUP BY value),FALSE,NA,Custom Dimension 10,Custom Dimension 10,STRING
+151,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  11  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  11  GROUP BY value),FALSE,NA,Custom Dimension 11,Custom Dimension 11,STRING
+152,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  12  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  12  GROUP BY value),FALSE,NA,Custom Dimension 12,Custom Dimension 12,STRING
+153,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  13  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  13  GROUP BY value),FALSE,NA,Custom Dimension 13,Custom Dimension 13,STRING
+154,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  14  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  14  GROUP BY value),FALSE,NA,Custom Dimension 14,Custom Dimension 14,STRING
+155,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  15  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  15  GROUP BY value),FALSE,NA,Custom Dimension 15,Custom Dimension 15,STRING
+156,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  16  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  16  GROUP BY value),FALSE,NA,Custom Dimension 16,Custom Dimension 16,STRING
+157,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  17  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  17  GROUP BY value),FALSE,NA,Custom Dimension 17,Custom Dimension 17,STRING
+158,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  18  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  18  GROUP BY value),FALSE,NA,Custom Dimension 18,Custom Dimension 18,STRING
+159,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  19  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  19  GROUP BY value),FALSE,NA,Custom Dimension 19,Custom Dimension 19,STRING
+160,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  20  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  20  GROUP BY value),FALSE,NA,Custom Dimension 20,Custom Dimension 20,STRING
+161,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  21  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  21  GROUP BY value),FALSE,NA,Custom Dimension 21,Custom Dimension 21,STRING
+162,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  22  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  22  GROUP BY value),FALSE,NA,Custom Dimension 22,Custom Dimension 22,STRING
+163,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  23  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  23  GROUP BY value),FALSE,NA,Custom Dimension 23,Custom Dimension 23,STRING
+164,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  24  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  24  GROUP BY value),FALSE,NA,Custom Dimension 24,Custom Dimension 24,STRING
+165,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  25  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  25  GROUP BY value),FALSE,NA,Custom Dimension 25,Custom Dimension 25,STRING
+166,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  26  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  26  GROUP BY value),FALSE,NA,Custom Dimension 26,Custom Dimension 26,STRING
+167,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  27  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  27  GROUP BY value),FALSE,NA,Custom Dimension 27,Custom Dimension 27,STRING
+168,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  28  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  28  GROUP BY value),FALSE,NA,Custom Dimension 28,Custom Dimension 28,STRING
+169,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  29  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  29  GROUP BY value),FALSE,NA,Custom Dimension 29,Custom Dimension 29,STRING
+170,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  30  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  30  GROUP BY value),FALSE,NA,Custom Dimension 30,Custom Dimension 30,STRING
+171,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  31  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  31  GROUP BY value),FALSE,NA,Custom Dimension 31,Custom Dimension 31,STRING
+172,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  32  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  32  GROUP BY value),FALSE,NA,Custom Dimension 32,Custom Dimension 32,STRING
+173,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  33  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  33  GROUP BY value),FALSE,NA,Custom Dimension 33,Custom Dimension 33,STRING
+174,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  34  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  34  GROUP BY value),FALSE,NA,Custom Dimension 34,Custom Dimension 34,STRING
+175,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  35  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  35  GROUP BY value),FALSE,NA,Custom Dimension 35,Custom Dimension 35,STRING
+176,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  36  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  36  GROUP BY value),FALSE,NA,Custom Dimension 36,Custom Dimension 36,STRING
+177,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  37  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  37  GROUP BY value),FALSE,NA,Custom Dimension 37,Custom Dimension 37,STRING
+178,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  38  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  38  GROUP BY value),FALSE,NA,Custom Dimension 38,Custom Dimension 38,STRING
+179,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  39  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  39  GROUP BY value),FALSE,NA,Custom Dimension 39,Custom Dimension 39,STRING
+180,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  40  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  40  GROUP BY value),FALSE,NA,Custom Dimension 40,Custom Dimension 40,STRING
+181,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  41  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  41  GROUP BY value),FALSE,NA,Custom Dimension 41,Custom Dimension 41,STRING
+182,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  42  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  42  GROUP BY value),FALSE,NA,Custom Dimension 42,Custom Dimension 42,STRING
+183,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  43  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  43  GROUP BY value),FALSE,NA,Custom Dimension 43,Custom Dimension 43,STRING
+184,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  44  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  44  GROUP BY value),FALSE,NA,Custom Dimension 44,Custom Dimension 44,STRING
+185,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  45  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  45  GROUP BY value),FALSE,NA,Custom Dimension 45,Custom Dimension 45,STRING
+186,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  46  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  46  GROUP BY value),FALSE,NA,Custom Dimension 46,Custom Dimension 46,STRING
+187,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  47  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  47  GROUP BY value),FALSE,NA,Custom Dimension 47,Custom Dimension 47,STRING
+188,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  48  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  48  GROUP BY value),FALSE,NA,Custom Dimension 48,Custom Dimension 48,STRING
+189,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  49  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  49  GROUP BY value),FALSE,NA,Custom Dimension 49,Custom Dimension 49,STRING
+190,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  50  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  50  GROUP BY value),FALSE,NA,Custom Dimension 50,Custom Dimension 50,STRING
+191,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  51  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  51  GROUP BY value),FALSE,NA,Custom Dimension 51,Custom Dimension 51,STRING
+192,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  52  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  52  GROUP BY value),FALSE,NA,Custom Dimension 52,Custom Dimension 52,STRING
+193,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  53  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  53  GROUP BY value),FALSE,NA,Custom Dimension 53,Custom Dimension 53,STRING
+194,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  54  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  54  GROUP BY value),FALSE,NA,Custom Dimension 54,Custom Dimension 54,STRING
+195,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  55  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  55  GROUP BY value),FALSE,NA,Custom Dimension 55,Custom Dimension 55,STRING
+196,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  56  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  56  GROUP BY value),FALSE,NA,Custom Dimension 56,Custom Dimension 56,STRING
+197,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  57  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  57  GROUP BY value),FALSE,NA,Custom Dimension 57,Custom Dimension 57,STRING
+198,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  58  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  58  GROUP BY value),FALSE,NA,Custom Dimension 58,Custom Dimension 58,STRING
+199,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  59  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  59  GROUP BY value),FALSE,NA,Custom Dimension 59,Custom Dimension 59,STRING
+200,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  60  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  60  GROUP BY value),FALSE,NA,Custom Dimension 60,Custom Dimension 60,STRING
+201,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  61  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  61  GROUP BY value),FALSE,NA,Custom Dimension 61,Custom Dimension 61,STRING
+202,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  62  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  62  GROUP BY value),FALSE,NA,Custom Dimension 62,Custom Dimension 62,STRING
+203,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  63  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  63  GROUP BY value),FALSE,NA,Custom Dimension 63,Custom Dimension 63,STRING
+204,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  64  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  64  GROUP BY value),FALSE,NA,Custom Dimension 64,Custom Dimension 64,STRING
+205,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  65  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  65  GROUP BY value),FALSE,NA,Custom Dimension 65,Custom Dimension 65,STRING
+206,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  66  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  66  GROUP BY value),FALSE,NA,Custom Dimension 66,Custom Dimension 66,STRING
+207,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  67  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  67  GROUP BY value),FALSE,NA,Custom Dimension 67,Custom Dimension 67,STRING
+208,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  68  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  68  GROUP BY value),FALSE,NA,Custom Dimension 68,Custom Dimension 68,STRING
+209,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  69  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  69  GROUP BY value),FALSE,NA,Custom Dimension 69,Custom Dimension 69,STRING
+210,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  70  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  70  GROUP BY value),FALSE,NA,Custom Dimension 70,Custom Dimension 70,STRING
+211,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  71  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  71  GROUP BY value),FALSE,NA,Custom Dimension 71,Custom Dimension 71,STRING
+212,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  72  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  72  GROUP BY value),FALSE,NA,Custom Dimension 72,Custom Dimension 72,STRING
+213,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  73  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  73  GROUP BY value),FALSE,NA,Custom Dimension 73,Custom Dimension 73,STRING
+214,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  74  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  74  GROUP BY value),FALSE,NA,Custom Dimension 74,Custom Dimension 74,STRING
+215,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  75  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  75  GROUP BY value),FALSE,NA,Custom Dimension 75,Custom Dimension 75,STRING
+216,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  76  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  76  GROUP BY value),FALSE,NA,Custom Dimension 76,Custom Dimension 76,STRING
+217,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  77  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  77  GROUP BY value),FALSE,NA,Custom Dimension 77,Custom Dimension 77,STRING
+218,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  78  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  78  GROUP BY value),FALSE,NA,Custom Dimension 78,Custom Dimension 78,STRING
+219,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  79  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  79  GROUP BY value),FALSE,NA,Custom Dimension 79,Custom Dimension 79,STRING
+220,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  80  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  80  GROUP BY value),FALSE,NA,Custom Dimension 80,Custom Dimension 80,STRING
+221,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  81  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  81  GROUP BY value),FALSE,NA,Custom Dimension 81,Custom Dimension 81,STRING
+222,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  82  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  82  GROUP BY value),FALSE,NA,Custom Dimension 82,Custom Dimension 82,STRING
+223,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  83  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  83  GROUP BY value),FALSE,NA,Custom Dimension 83,Custom Dimension 83,STRING
+224,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  84  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  84  GROUP BY value),FALSE,NA,Custom Dimension 84,Custom Dimension 84,STRING
+225,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  85  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  85  GROUP BY value),FALSE,NA,Custom Dimension 85,Custom Dimension 85,STRING
+226,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  86  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  86  GROUP BY value),FALSE,NA,Custom Dimension 86,Custom Dimension 86,STRING
+227,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  87  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  87  GROUP BY value),FALSE,NA,Custom Dimension 87,Custom Dimension 87,STRING
+228,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  88  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  88  GROUP BY value),FALSE,NA,Custom Dimension 88,Custom Dimension 88,STRING
+229,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  89  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  89  GROUP BY value),FALSE,NA,Custom Dimension 89,Custom Dimension 89,STRING
+230,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  90  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  90  GROUP BY value),FALSE,NA,Custom Dimension 90,Custom Dimension 90,STRING
+231,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  91  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  91  GROUP BY value),FALSE,NA,Custom Dimension 91,Custom Dimension 91,STRING
+232,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  92  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  92  GROUP BY value),FALSE,NA,Custom Dimension 92,Custom Dimension 92,STRING
+233,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  93  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  93  GROUP BY value),FALSE,NA,Custom Dimension 93,Custom Dimension 93,STRING
+234,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  94  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  94  GROUP BY value),FALSE,NA,Custom Dimension 94,Custom Dimension 94,STRING
+235,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  95  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  95  GROUP BY value),FALSE,NA,Custom Dimension 95,Custom Dimension 95,STRING
+236,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  96  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  96  GROUP BY value),FALSE,NA,Custom Dimension 96,Custom Dimension 96,STRING
+237,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  97  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  97  GROUP BY value),FALSE,NA,Custom Dimension 97,Custom Dimension 97,STRING
+238,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  98  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  98  GROUP BY value),FALSE,NA,Custom Dimension 98,Custom Dimension 98,STRING
+239,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  99  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  99  GROUP BY value),FALSE,NA,Custom Dimension 99,Custom Dimension 99,STRING
+240,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  100  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  100  GROUP BY value),FALSE,NA,Custom Dimension 100,Custom Dimension 100,STRING
+241,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  101  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  101  GROUP BY value),FALSE,NA,Custom Dimension 101,Custom Dimension 101,STRING
+242,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  102  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  102  GROUP BY value),FALSE,NA,Custom Dimension 102,Custom Dimension 102,STRING
+243,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  103  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  103  GROUP BY value),FALSE,NA,Custom Dimension 103,Custom Dimension 103,STRING
+244,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  104  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  104  GROUP BY value),FALSE,NA,Custom Dimension 104,Custom Dimension 104,STRING
+245,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  105  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  105  GROUP BY value),FALSE,NA,Custom Dimension 105,Custom Dimension 105,STRING
+246,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  106  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  106  GROUP BY value),FALSE,NA,Custom Dimension 106,Custom Dimension 106,STRING
+247,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  107  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  107  GROUP BY value),FALSE,NA,Custom Dimension 107,Custom Dimension 107,STRING
+248,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  108  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  108  GROUP BY value),FALSE,NA,Custom Dimension 108,Custom Dimension 108,STRING
+249,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  109  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  109  GROUP BY value),FALSE,NA,Custom Dimension 109,Custom Dimension 109,STRING
+250,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  110  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  110  GROUP BY value),FALSE,NA,Custom Dimension 110,Custom Dimension 110,STRING
+251,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  111  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  111  GROUP BY value),FALSE,NA,Custom Dimension 111,Custom Dimension 111,STRING
+252,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  112  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  112  GROUP BY value),FALSE,NA,Custom Dimension 112,Custom Dimension 112,STRING
+253,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  113  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  113  GROUP BY value),FALSE,NA,Custom Dimension 113,Custom Dimension 113,STRING
+254,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  114  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  114  GROUP BY value),FALSE,NA,Custom Dimension 114,Custom Dimension 114,STRING
+255,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  115  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  115  GROUP BY value),FALSE,NA,Custom Dimension 115,Custom Dimension 115,STRING
+256,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  116  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  116  GROUP BY value),FALSE,NA,Custom Dimension 116,Custom Dimension 116,STRING
+257,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  117  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  117  GROUP BY value),FALSE,NA,Custom Dimension 117,Custom Dimension 117,STRING
+258,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  118  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  118  GROUP BY value),FALSE,NA,Custom Dimension 118,Custom Dimension 118,STRING
+259,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  119  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  119  GROUP BY value),FALSE,NA,Custom Dimension 119,Custom Dimension 119,STRING
+260,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  120  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  120  GROUP BY value),FALSE,NA,Custom Dimension 120,Custom Dimension 120,STRING
+261,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  121  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  121  GROUP BY value),FALSE,NA,Custom Dimension 121,Custom Dimension 121,STRING
+262,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  122  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  122  GROUP BY value),FALSE,NA,Custom Dimension 122,Custom Dimension 122,STRING
+263,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  123  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  123  GROUP BY value),FALSE,NA,Custom Dimension 123,Custom Dimension 123,STRING
+264,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  124  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  124  GROUP BY value),FALSE,NA,Custom Dimension 124,Custom Dimension 124,STRING
+265,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  125  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  125  GROUP BY value),FALSE,NA,Custom Dimension 125,Custom Dimension 125,STRING
+266,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  126  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  126  GROUP BY value),FALSE,NA,Custom Dimension 126,Custom Dimension 126,STRING
+267,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  127  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  127  GROUP BY value),FALSE,NA,Custom Dimension 127,Custom Dimension 127,STRING
+268,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  128  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  128  GROUP BY value),FALSE,NA,Custom Dimension 128,Custom Dimension 128,STRING
+269,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  129  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  129  GROUP BY value),FALSE,NA,Custom Dimension 129,Custom Dimension 129,STRING
+270,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  130  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  130  GROUP BY value),FALSE,NA,Custom Dimension 130,Custom Dimension 130,STRING
+271,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  131  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  131  GROUP BY value),FALSE,NA,Custom Dimension 131,Custom Dimension 131,STRING
+272,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  132  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  132  GROUP BY value),FALSE,NA,Custom Dimension 132,Custom Dimension 132,STRING
+273,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  133  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  133  GROUP BY value),FALSE,NA,Custom Dimension 133,Custom Dimension 133,STRING
+274,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  134  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  134  GROUP BY value),FALSE,NA,Custom Dimension 134,Custom Dimension 134,STRING
+275,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  135  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  135  GROUP BY value),FALSE,NA,Custom Dimension 135,Custom Dimension 135,STRING
+276,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  136  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  136  GROUP BY value),FALSE,NA,Custom Dimension 136,Custom Dimension 136,STRING
+277,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  137  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  137  GROUP BY value),FALSE,NA,Custom Dimension 137,Custom Dimension 137,STRING
+278,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  138  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  138  GROUP BY value),FALSE,NA,Custom Dimension 138,Custom Dimension 138,STRING
+279,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  139  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  139  GROUP BY value),FALSE,NA,Custom Dimension 139,Custom Dimension 139,STRING
+280,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  140  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  140  GROUP BY value),FALSE,NA,Custom Dimension 140,Custom Dimension 140,STRING
+281,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  141  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  141  GROUP BY value),FALSE,NA,Custom Dimension 141,Custom Dimension 141,STRING
+282,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  142  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  142  GROUP BY value),FALSE,NA,Custom Dimension 142,Custom Dimension 142,STRING
+283,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  143  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  143  GROUP BY value),FALSE,NA,Custom Dimension 143,Custom Dimension 143,STRING
+284,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  144  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  144  GROUP BY value),FALSE,NA,Custom Dimension 144,Custom Dimension 144,STRING
+285,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  145  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  145  GROUP BY value),FALSE,NA,Custom Dimension 145,Custom Dimension 145,STRING
+286,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  146  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  146  GROUP BY value),FALSE,NA,Custom Dimension 146,Custom Dimension 146,STRING
+287,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  147  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  147  GROUP BY value),FALSE,NA,Custom Dimension 147,Custom Dimension 147,STRING
+288,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  148  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  148  GROUP BY value),FALSE,NA,Custom Dimension 148,Custom Dimension 148,STRING
+289,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  149  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  149  GROUP BY value),FALSE,NA,Custom Dimension 149,Custom Dimension 149,STRING
+290,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  150  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  150  GROUP BY value),FALSE,NA,Custom Dimension 150,Custom Dimension 150,STRING
+291,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  151  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  151  GROUP BY value),FALSE,NA,Custom Dimension 151,Custom Dimension 151,STRING
+292,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  152  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  152  GROUP BY value),FALSE,NA,Custom Dimension 152,Custom Dimension 152,STRING
+293,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  153  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  153  GROUP BY value),FALSE,NA,Custom Dimension 153,Custom Dimension 153,STRING
+294,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  154  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  154  GROUP BY value),FALSE,NA,Custom Dimension 154,Custom Dimension 154,STRING
+295,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  155  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  155  GROUP BY value),FALSE,NA,Custom Dimension 155,Custom Dimension 155,STRING
+296,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  156  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  156  GROUP BY value),FALSE,NA,Custom Dimension 156,Custom Dimension 156,STRING
+297,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  157  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  157  GROUP BY value),FALSE,NA,Custom Dimension 157,Custom Dimension 157,STRING
+298,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  158  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  158  GROUP BY value),FALSE,NA,Custom Dimension 158,Custom Dimension 158,STRING
+299,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  159  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  159  GROUP BY value),FALSE,NA,Custom Dimension 159,Custom Dimension 159,STRING
+300,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  160  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  160  GROUP BY value),FALSE,NA,Custom Dimension 160,Custom Dimension 160,STRING
+301,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  161  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  161  GROUP BY value),FALSE,NA,Custom Dimension 161,Custom Dimension 161,STRING
+302,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  162  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  162  GROUP BY value),FALSE,NA,Custom Dimension 162,Custom Dimension 162,STRING
+303,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  163  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  163  GROUP BY value),FALSE,NA,Custom Dimension 163,Custom Dimension 163,STRING
+304,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  164  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  164  GROUP BY value),FALSE,NA,Custom Dimension 164,Custom Dimension 164,STRING
+305,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  165  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  165  GROUP BY value),FALSE,NA,Custom Dimension 165,Custom Dimension 165,STRING
+306,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  166  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  166  GROUP BY value),FALSE,NA,Custom Dimension 166,Custom Dimension 166,STRING
+307,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  167  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  167  GROUP BY value),FALSE,NA,Custom Dimension 167,Custom Dimension 167,STRING
+308,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  168  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  168  GROUP BY value),FALSE,NA,Custom Dimension 168,Custom Dimension 168,STRING
+309,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  169  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  169  GROUP BY value),FALSE,NA,Custom Dimension 169,Custom Dimension 169,STRING
+310,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  170  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  170  GROUP BY value),FALSE,NA,Custom Dimension 170,Custom Dimension 170,STRING
+311,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  171  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  171  GROUP BY value),FALSE,NA,Custom Dimension 171,Custom Dimension 171,STRING
+312,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  172  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  172  GROUP BY value),FALSE,NA,Custom Dimension 172,Custom Dimension 172,STRING
+313,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  173  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  173  GROUP BY value),FALSE,NA,Custom Dimension 173,Custom Dimension 173,STRING
+314,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  174  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  174  GROUP BY value),FALSE,NA,Custom Dimension 174,Custom Dimension 174,STRING
+315,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  175  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  175  GROUP BY value),FALSE,NA,Custom Dimension 175,Custom Dimension 175,STRING
+316,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  176  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  176  GROUP BY value),FALSE,NA,Custom Dimension 176,Custom Dimension 176,STRING
+317,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  177  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  177  GROUP BY value),FALSE,NA,Custom Dimension 177,Custom Dimension 177,STRING
+318,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  178  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  178  GROUP BY value),FALSE,NA,Custom Dimension 178,Custom Dimension 178,STRING
+319,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  179  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  179  GROUP BY value),FALSE,NA,Custom Dimension 179,Custom Dimension 179,STRING
+320,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  180  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  180  GROUP BY value),FALSE,NA,Custom Dimension 180,Custom Dimension 180,STRING
+321,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  181  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  181  GROUP BY value),FALSE,NA,Custom Dimension 181,Custom Dimension 181,STRING
+322,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  182  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  182  GROUP BY value),FALSE,NA,Custom Dimension 182,Custom Dimension 182,STRING
+323,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  183  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  183  GROUP BY value),FALSE,NA,Custom Dimension 183,Custom Dimension 183,STRING
+324,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  184  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  184  GROUP BY value),FALSE,NA,Custom Dimension 184,Custom Dimension 184,STRING
+325,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  185  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  185  GROUP BY value),FALSE,NA,Custom Dimension 185,Custom Dimension 185,STRING
+326,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  186  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  186  GROUP BY value),FALSE,NA,Custom Dimension 186,Custom Dimension 186,STRING
+327,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  187  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  187  GROUP BY value),FALSE,NA,Custom Dimension 187,Custom Dimension 187,STRING
+328,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  188  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  188  GROUP BY value),FALSE,NA,Custom Dimension 188,Custom Dimension 188,STRING
+329,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  189  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  189  GROUP BY value),FALSE,NA,Custom Dimension 189,Custom Dimension 189,STRING
+330,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  190  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  190  GROUP BY value),FALSE,NA,Custom Dimension 190,Custom Dimension 190,STRING
+331,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  191  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  191  GROUP BY value),FALSE,NA,Custom Dimension 191,Custom Dimension 191,STRING
+332,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  192  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  192  GROUP BY value),FALSE,NA,Custom Dimension 192,Custom Dimension 192,STRING
+333,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  193  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  193  GROUP BY value),FALSE,NA,Custom Dimension 193,Custom Dimension 193,STRING
+334,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  194  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  194  GROUP BY value),FALSE,NA,Custom Dimension 194,Custom Dimension 194,STRING
+335,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  195  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  195  GROUP BY value),FALSE,NA,Custom Dimension 195,Custom Dimension 195,STRING
+336,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  196  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  196  GROUP BY value),FALSE,NA,Custom Dimension 196,Custom Dimension 196,STRING
+337,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  197  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  197  GROUP BY value),FALSE,NA,Custom Dimension 197,Custom Dimension 197,STRING
+338,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  198  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  198  GROUP BY value),FALSE,NA,Custom Dimension 198,Custom Dimension 198,STRING
+339,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  199  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  199  GROUP BY value),FALSE,NA,Custom Dimension 199,Custom Dimension 199,STRING
+340,(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  200  GROUP BY value),(SELECT value FROM UNNEST(table.customDimensions) WHERE index =  200  GROUP BY value),FALSE,NA,Custom Dimension 200,Custom Dimension 200,STRING
